@@ -9,6 +9,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://www.vagrantup.com"
   spec.license       = "MIT"
 
+  spec.post_install_message = File.read(File.expand_path("../message.txt", __FILE__))
+
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})

@@ -1,0 +1,17 @@
+Thanks for wanting to use Vagrant! Unfortunately, this is not the way
+to install Vagrant anymore. We now make installers for the various operating
+systems Vagrant supports.
+
+Vagrant is no longer distributed as a RubyGem. Please download the latest
+version for your operating system from the URL below. If you still wish
+to use the RubyGem version, you can manually install version 1.0.7. Note that
+the RubyGem version hasn't been updated in over a year and will no longer
+receive any updates.
+
+Prior to installing Vagrant using the installer, make sure you uninstall
+all your Vagrant gems, since they sometimes conflict.
+
+http://www.vagrantup.com
+
+If you want to learn more about why we don't distribute using RubyGems
+anymore, please read this: http://mitchellh.com/abandoning-rubygems

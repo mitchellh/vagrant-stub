@@ -1,14 +1,4 @@
 #!/usr/bin/env ruby
 
-$stderr.puts "Thanks for wanting to use Vagrant! Unfortunately, this is not"
-$stderr.puts "the way to install Vagrant anymore."
-$stderr.puts ""
-$stderr.puts "Vagrant is no longer distributed as a RubyGem! Please download"
-$stderr.puts "the latest version for your operating system from the URL below."
-$stderr.puts "If you still wish to use the RubyGem version, which hasn't been"
-$stderr.puts "updated in over a year, you can manually install version 1.0.7."
-$stderr.puts ""
-$stderr.puts "Make sure to uninstall this gem before installing using the Vagrant"
-$stderr.puts "installer!"
-$stderr.puts ""
-$stderr.puts "http://www.vagrantup.com/"
+$stderr.puts File.read(File.expand_path("../../message.txt", __FILE__))
+abort
